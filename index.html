@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="main">
+        <!-- user input section -->
+        <section class="userInput">
+            <div class="card">
+                <div class="card-header">
+                    <p id="flashMag"></p>
+                </div>
+                <input type="text" name="city" id="city" class="form-control" placeholder=" Enter City Name">
+                <div class="hr"></div>
+                <button class="btn btn-block" type="button" id="getLocation">Get Device Location</button>
+            </div>
+        </section>
+        <!-- weather section-->
+        <section class="weather">
+            <div class="card">
+                <div class="card-header">
+                    <button type="button" class="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                </div>
+                <div class="card-body">
+                    <img src="" alt="!" class="weatherImg">
+                    <h1 class="temperature">
+                        <span class="temp"></span><sup>o</sup><span>c</span>
+                    </h1>
+                    <p class="weather-status"></p>
+                    <p class="weather-location">
+                        <i class="fa fa-map-marker"></i>
+                        <span class="weatherLocation"> </span>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <card class="card-left">
+                        <span class="footer-icon">
+                            <i class="fa fa-thermometer-empty" aria-hidden="true"></i>
+                        </span>
+
+                        <div class="feel-details">
+                            <div class="feel-temp">
+                                <span class="feel-temperature">41</span><sup>o</sup><span>c</span>
+                                <p class="m-0">Feels Like</p>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="card-right">
+                        <span class="footer-icon">
+                            <i class="fa fa-tint" aria-hidden="true"></i>
+                        </span>
+                        <div class="humidity-details">
+                            <div class="humidity-temp">
+                                <span class="humidity">46</span><span>%</span>
+                                <p class="m-0">Humidity</p>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

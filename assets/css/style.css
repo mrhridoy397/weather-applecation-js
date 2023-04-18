@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,400&display=swap");
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 148, 148);
+    font-family: 'Poppins' sans-serif;
+}
+.card{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+#flashMag{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: #00ff004a; */
+}
+::placeholder{
+    color: #474545bd;
+}
+.form-control{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 14px;
+    text-align: center;
+    color: #474545bd;
+
+}
+.form-control:focus{
+    border-color: aqua;
+    outline: none;
+}
+.btn{
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgba(11, 140, 97, 0.632);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hr{
+    height: 1px;
+    background-color: #a3a0a0cb;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr::before{
+    content: "or";
+    background-color: #fff;
+    border: none !important;
+    position: absolute;
+    left: 46%;
+    top: -18px;
+    padding: 10px;
+    z-index: 111;
+    color: #474545bd;
+}
+.btn-block{
+    margin-top: 15px;
+    width: 100%;
+
+}
+.userInput{
+    display: block;
+}
+
+.weather{
+    display: none;
+    width: 350px;
+}
+.weather .card{
+    padding: 0;
+}
+.back{
+    background-color: transparent;
+    color: rgb(16, 116, 116);
+    border: none;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-body{
+    text-align: center;
+}
+.weatherImg{
+    height: 200px;
+}
+.temperature{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.card-left{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-right{
+    border-top: 1px solid #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .feel-details{
+    display: flex;
+} */
+
+.footer-icon{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.m-0{
+    margin: 0;
+}
